@@ -1,0 +1,14 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 10px 0;
+}
+
+h2,
+p {
+  margin: 5px 35px 15px 35px;
+}

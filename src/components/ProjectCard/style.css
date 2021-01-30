@@ -1,0 +1,25 @@
+.project {
+  width: 40%;
+  height: 40%;
+  border: 1px solid black;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.project > p {
+  width: 90%;
+}
+
+.project:hover > p {
+  display: none;
+}

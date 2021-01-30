@@ -1,0 +1,19 @@
+.skillBox {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  padding: 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h4 {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.skillLogo {
+  height: 40%;
+}

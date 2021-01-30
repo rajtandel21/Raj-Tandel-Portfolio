@@ -1,0 +1,32 @@
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #baf7b0;
+  border-right: 10px solid rgb(216, 216, 216);
+  height: 100vh;
+  width: 100px;
+  font-family: poppins, serif;
+}
+
+.navOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60%;
+  padding-top: 10px;
+}
+
+.icon {
+  width: 70%;
+  cursor: pointer;
+}
+
+.icon:hover {
+  scale: 1.1;
+}
+
+.myicon {
+  width: 100%;
+}

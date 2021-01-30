@@ -1,0 +1,50 @@
+.myimg {
+  border-radius: 50%;
+  height: 30%;
+  border-bottom: 10px solid #baf7b0;
+  border-right: 10px solid #baf7b0;
+}
+
+p {
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  padding: 0 10px;
+  width: 90%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.typewrite h1 {
+  overflow: hidden;
+  border-right: 0.15em solid #baf7b0;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.05em;
+  animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+.typewrite {
+  padding-bottom: 10px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #baf7b0;
+  }
+}

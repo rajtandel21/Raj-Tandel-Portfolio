@@ -1,0 +1,7 @@
+.workContainer {
+  display: flex;
+  width: 90%;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
